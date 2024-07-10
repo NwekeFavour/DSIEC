@@ -1,0 +1,86 @@
+.elect-line {
+    border: 1px solid #0D4287;
+}
+.button-area {
+    width: 250px;
+    white-space: nowrap;
+}
+.search {
+    border: 2px solid #0D4287;
+    border-radius: 20px;
+    width: 450px;
+    height: 45px;
+    padding: 8px 12px;
+}
+.partyy{
+    width: 300px !important;
+    margin: 0 auto !important;
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.submit-btn {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    outline: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 10px;
+}
+.submit-btn:hover {
+    background: red;
+    color: white;
+}
+.blue-text {
+    color: #0D4287;
+}
+.table {
+    white-space: nowrap;
+}
+input {
+    box-shadow: none !important;
+}
+select {
+    box-shadow: none !important;
+}
+.form-top {
+    margin-top: 60px !important;
+}
+.border-r {
+    border: 2px solid #0D4287;
+    border-radius: 6rem;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .search {
+        width: 100%;
+    }
+    .search input {
+        width: 90%;
+    }
+    .partyy{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .reversal {
+        display: grid;
+        flex-direction: column-reverse;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .reversal {
+        display: grid;
+        flex-direction: column-reverse;
+    }
+}
+

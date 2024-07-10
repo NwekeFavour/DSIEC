@@ -1,0 +1,37 @@
+.ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.ul li a {
+    font-size: 18px;
+}
+
+.text-justify li div a{
+    text-align: justify !important;
+}
+
+.drop:hover{
+    background-color: #000;
+    color: #fff !important;
+}
+
+ .fa-users-line,
+ .fa-people-group {
+     font-size: 16px;
+ }
+
+@media screen and (min-width:992px) {
+    .Subs {
+        height: 210px;
+    }
+    .cand{
+        border-left: 2px solid #000;
+    }
+
+    .fa-users-line, .fa-people-group{
+        font-size: 16px;
+    }
+}
+

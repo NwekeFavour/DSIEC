@@ -1,0 +1,46 @@
+.resty {
+    margin-top: 100px;
+}
+.blue-text1 {
+    color: #0D4287;
+}
+.elect-line1 {
+    border: 1px solid #0D4287;
+}
+.marg {
+    margin-top: 65px;
+}
+input {
+    box-shadow: none !important;
+    width: 380px !important;
+}
+.reset-btn {
+    border: 1px solid #0D4287;
+    border-radius: 15px;
+    background-color: #0D4287;
+    color: white;
+    width: 200px;
+    padding: 10px 0px;
+}
+.top-eye {
+    top: 38px;
+    left: 350px;
+}
+.top-eye1 {
+    top: 156px;
+    left: 350px;
+}
+@media only screen and (max-width: 600px) {
+    input {
+        width: 320px !important;
+    }
+    .top-eye {
+        top: 38px;
+        left: 290px;
+    }
+    .top-eye1 {
+        top: 156px;
+        left: 290px;
+    }
+}
+

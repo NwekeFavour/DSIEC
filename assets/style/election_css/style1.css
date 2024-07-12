@@ -58,6 +58,23 @@ select {
     align-items: center;
     justify-content: center;
 }
+.add-btn {
+    background-color: #0D4287;
+    border: 1px solid #0D4287;
+    width: 150px;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.blue-text2 {
+    color: #0D4287;
+}
+
+.elect-line2 {
+    border: 1px solid #0D4287;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

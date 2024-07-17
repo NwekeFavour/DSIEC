@@ -1,0 +1,34 @@
+.dashed{
+ border-bottom: 1px dotted black !important;
+ width: 350px !important;
+}
+
+p{
+    font-size: 15px;
+}
+
+.dashed2{
+    border-bottom: 1px dotted black !important;
+    width: 100px !important;
+}
+
+.top_table{
+    border: 2px solid black;
+    width: 100%;
+}
+
+.t-cont th {
+    border: 2px solid black !important;
+}
+
+.tb-cont tr td  {
+    border: 2px solid black !important;
+}
+
+.tb-cont th {
+    border: 2px solid black !important;
+}
+
+table{
+    white-space: nowrap;
+}
